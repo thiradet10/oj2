@@ -1,9 +1,9 @@
-##Calculator
+# Calculator
 By Thiradet Prasarsuk , 673450195-4 , Computer and Infomation Science, KKU
 
-##การรับและการแสดงผลข้อมูล
-รับข้อมูลจากผู้ใช้งาน และทำงานผ่านการกดปุ่มเพื่อคำนวนตัวเลข
-ปุ่มบวก
+# การรับและการแสดงผลข้อมูล
+## รับข้อมูลจากผู้ใช้งาน และทำงานผ่านการกดปุ่มเพื่อคำนวนตัวเลขปุ่มบวก
+```
 private void button1_Click(object sender, EventArgs e)
 {
     // ข้อความตัวอักษร
@@ -18,25 +18,31 @@ private void button1_Click(object sender, EventArgs e)
     // มีคุณสมบัติชื่อ Text
     result.Text = iResult.ToString();
 }
-รับข้อมูล
+```
+### รับข้อมูล
 ตัวอย่าง
-
+```
  string inputNum1 = num1.Text;
  string inputNum2 = num2.Text;
-แปลงชนิดของข้อมูล
+```
+### แปลงชนิดของข้อมูล
 ตัวอย่าง
-
+```
 double iNum1 = double.Parse(inputNum1);
 double iNum2 = double.Parse(inputNum2);
-คำนวนผลลัพท์
+```
+### คำนวนผลลัพท์
 ตัวอย่าง
-
+```
 double iResuit = iNum1 - iNum2;
-แสดงผล
+```
+### แสดงผล
 ตัวอย่าง
-
+```
 result.Text = iResuit.ToString();
-ปุ่มลบ
+```
+ ### ปุ่มลบ
+```
 private void button3_Click(object sender, EventArgs e)
 {
     string inputNum1 = num1.Text;
@@ -47,9 +53,9 @@ private void button3_Click(object sender, EventArgs e)
     double iResuit = iNum1 - iNum2; // ฟังก์ชั่น -
     result.Text = iResuit.ToString(); // .ToString() แปลงกลับเป็น str
 }
+```
 
-
-ปุ่มคูณ
+### ปุ่มคูณ
 ```
  private void button4_Click(object sender, EventArgs e)
  {
@@ -65,7 +71,7 @@ private void button3_Click(object sender, EventArgs e)
 
 ```
 
-ปุ่มหาร
+### ปุ่มหาร
 ```
  private void button5_Click(object sender, EventArgs e)
  {
@@ -82,7 +88,7 @@ private void button3_Click(object sender, EventArgs e)
 
 
 
-ปุ่มลบข้อมูล
+### ปุ่มลบข้อมูล
 ```
 private void button6_Click(object sender, EventArgs e)
 {
