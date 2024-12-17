@@ -1,6 +1,7 @@
-Calculator
+##Calculator
 By Thiradet Prasarsuk , 673450195-4 , Computer and Infomation Science, KKU
-การรับและการแสดงผลข้อมูล
+
+##การรับและการแสดงผลข้อมูล
 รับข้อมูลจากผู้ใช้งาน และทำงานผ่านการกดปุ่มเพื่อคำนวนตัวเลข
 ปุ่มบวก
 private void button1_Click(object sender, EventArgs e)
